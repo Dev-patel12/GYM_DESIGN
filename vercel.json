@@ -1,8 +1,12 @@
 {
-    "rewrites": [
-      {
-        "source": "/",
-        "destination": "/user/index.html"
-      }
-    ]
-  }
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/user/index.html"
+    },
+    {
+      "source": "/new-event",
+      "destination": "/user/new-event.html"
+    }
+  ]
+}
