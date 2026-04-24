@@ -972,7 +972,6 @@ html {
   font-weight: bold;
 }
 
-<<<<<<< HEAD:css/style.css
 /* ================= MODAL STYLES (if any) ================= */
 .modal-content {
   background: #111;
@@ -1142,7 +1141,6 @@ html {
   .page-section {
     padding: 80px 0;
   }
-=======
 /* ================= REVEAL ANIMATIONS ================= */
 [data-aos] {
   pointer-events: auto;
@@ -1161,5 +1159,4 @@ html {
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
->>>>>>> 32c9e32 (change index):frontend/css/style.css
 }

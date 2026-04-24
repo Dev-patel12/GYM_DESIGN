@@ -27,7 +27,6 @@ function calculateBMI() {
   // Determine BMI category and provide fitness advice
   if (bmi < 18.5) {
     type = "Thin";
-<<<<<<< HEAD:js/script.js
     advice = "You are underweight. Increase calories and do strength training.";
   }
   else if (bmi < 25) {
@@ -37,7 +36,6 @@ function calculateBMI() {
   else if (bmi < 30) {
     type = "Overweight";
     advice = "Start cardio and control diet to reduce weight.";
-=======
     advice = "⚠️ You are underweight. Focus on calorie surplus with protein-rich foods and strength training to build muscle.";
   }
   else if (bmi < 25) {
@@ -47,7 +45,6 @@ function calculateBMI() {
   else if (bmi < 30) {
     type = "Overweight";
     advice = "🔥 You are overweight. Increase cardio, control portions, and combine strength training for best results.";
->>>>>>> 32c9e32 (change index):frontend/js/script.js
   }
   else {
     type = "Obese";
@@ -175,9 +172,7 @@ window.addEventListener("scroll", function () {
   }
 });
 
-<<<<<<< HEAD:js/script.js
 
-=======
 // ================= INITIALIZE AOS ANIMATIONS =================
 // AOS (Animate On Scroll) library initialization
 document.addEventListener('DOMContentLoaded', function() {
@@ -292,4 +287,3 @@ window.addEventListener('load', function() {
   const loader = document.querySelector('.loader');
   if (loader) loader.style.display = 'none';
 });
->>>>>>> 32c9e32 (change index):frontend/js/script.js
