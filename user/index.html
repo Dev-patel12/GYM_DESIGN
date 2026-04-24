@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Gym Pro | Elite Fitness Hub</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+
+  <!-- ================= NAVBAR (STICKY + GLASS) ================= -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-nav py-3" id="mainNav">
+    <div class="container">
+
+      <!-- Logo with hover animation -->
+      <a class="navbar-brand d-flex align-items-center" href="#home">
+        <img src="../images/logo.jpg" width="45" class="me-2 logo-img" alt="Gym Pro Logo">
+        <span class="fw-bold fs-3 brand-text">Gymfinity Core</span>
+      </a>
+
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li><a class="nav-link active" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#services">Services</a></li>
+          <li><a class="nav-link" href="#trainer">Our Trainers</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+          <li><a class="nav-link" href="new-event.html">News & Event</a></li>
+          <li class="ms-3">
+            <a href="#contact" class="btn btn-danger px-4 join-btn">Join Now</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ================= HERO SLIDER (CAROUSEL) ================= -->
+  <div id="home" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="slider-img"
+          style="background-image:url('https://images.unsplash.com/photo-1599058917765-a780eda07a3e?q=80&w=1920');">
+          <div class="overlay"></div>
+          <div class="container slider-content text-start">
+            <div class="col-lg-6 animate-slide">
+              <h1>Build Your Dream Body</h1>
+              <p>Transform your lifestyle with expert trainers, modern equipment, and a motivating environment designed
+                for real results.</p>
+              <a class="btn btn-danger btn-lg me-3">Join Now</a>
+              <a class="btn btn-outline-light btn-lg">Explore</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="slider-img"
+          style="background-image:url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1920');">
+          <div class="overlay"></div>
+          <div class="container slider-content text-start">
+            <div class="col-lg-6 animate-slide">
+              <h1>No Pain, No Gain</h1>
+              <p>Push your limits and achieve your fitness goals with personalized training programs and 24/7 support.
+              </p>
+              <a class="btn btn-danger btn-lg me-3">Start Today</a>
+              <a class="btn btn-outline-light btn-lg">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= FEATURES SECTION ================= -->
+  <section class="features text-center">
+    <div class="container">
+      <div class="mb-5 fade-up">
+        <h2 class="section-title">Why Choose Our Gym</h2>
+        <p class="section-subtitle">We provide world-class fitness facilities, expert guidance, and a motivating
+          environment to help you achieve your fitness goals faster.</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-4 fade-up" style="animation-delay: 0.1s;">
+          <div class="feature-box">
+            <div class="icon">🏋️</div>
+            <h4>Modern Equipment</h4>
+            <p>Train with the latest high-quality machines designed for strength, endurance, and overall body
+              development.</p>
+          </div>
+        </div>
+        <div class="col-md-4 fade-up" style="animation-delay: 0.2s;">
+          <div class="feature-box">
+            <div class="icon">👨‍🏫</div>
+            <h4>Expert Trainers</h4>
+            <p>Our certified trainers provide personalized guidance, workout plans, and motivation to help you stay on
+              track.</p>
+          </div>
+        </div>
+        <div class="col-md-4 fade-up" style="animation-delay: 0.3s;">
+          <div class="feature-box">
+            <div class="icon">⏰</div>
+            <h4>24/7 Availability</h4>
+            <p>Flexible gym timings allow you to work out anytime, making fitness easy for your busy lifestyle.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT SECTION ================= -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 fade-left">
+          <img src="https://images.unsplash.com/photo-1599058917765-a780eda07a3e?q=80&w=800" class="img-fluid about-img"
+            alt="Gym">
+        </div>
+        <div class="col-md-6 fade-right">
+          <h2>About Our Gym</h2>
+          <p>At <strong>Gym Pro</strong>, we are committed to helping you achieve your fitness goals with a perfect
+            blend of modern equipment, expert guidance, and a motivating environment.</p>
+          <p>Whether you are a beginner or a professional athlete, our certified trainers create personalized workout
+            plans designed to improve strength, endurance, and overall health.</p>
+          <p>We focus not only on physical transformation but also on building confidence, discipline, and a healthy
+            lifestyle that lasts a lifetime.</p>
+          <ul class="about-list">
+            <li>✔ Modern & fully equipped gym</li>
+            <li>✔ Certified personal trainers</li>
+            <li>✔ Customized workout & diet plans</li>
+            <li>✔ Friendly & motivating environment</li>
+          </ul>
+          <a class="btn btn-danger mt-3">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= BMI SECTION (UNCHANGED) ================= -->
+  <section class="bmi-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-4 mb-4">
+          <div class="bmi-card">
+            <div class="gender-toggle mb-4 text-center">
+              <input type="radio" id="male" name="gender" checked>
+              <label for="male">👨 Male</label>
+              <input type="radio" id="female" name="gender">
+              <label for="female">👩 Female</label>
+            </div>
+            <input type="number" id="weight" class="form-control mb-3" placeholder="Weight (kg)" min="1">
+            <input type="number" id="height" class="form-control mb-3" placeholder="Height (cm)" min="50">
+            <button class="btn btn-danger w-100 py-2" onclick="calculateBMI()">
+              📏 Calculate
+            </button>
+          </div>
+        </div>
+
+        <div class="col-lg-4 text-center mb-4 bmi-images">
+          <img id="maleNormal" class="bmi-img active"
+            src="https://optimumfitness.co.in/wp-content/plugins/bmi-calculators-by-prominetix/images/male_normal.png">
+          <img id="maleThin" class="bmi-img"
+            src="https://optimumfitness.co.in/wp-content/plugins/bmi-calculators-by-prominetix/images/male_thin.png">
+          <img id="maleOverweight" class="bmi-img"
+            src="https://optimumfitness.co.in/wp-content/plugins/bmi-calculators-by-prominetix/images/male_overweight.png">
+          <img id="maleObese" class="bmi-img"
+            src="https://optimumfitness.co.in/wp-content/plugins/bmi-calculators-by-prominetix/images/male_obese.png">
+          <img id="femaleNormal" class="bmi-img"
+            src="https://optimumfitness.co.in/wp-content/plugins/bmi-calculators-by-prominetix/images/female_normal.png">
+          <img id="femaleThin" class="bmi-img"
+            src="https://optimumfitness.co.in/wp-content/plugins/bmi-calculators-by-prominetix/images/female_thin.png">
+          <img id="femaleOverweight" class="bmi-img"
+            src="https://optimumfitness.co.in/wp-content/plugins/bmi-calculators-by-prominetix/images/female_overweight.png">
+          <img id="femaleObese" class="bmi-img"
+            src="https://optimumfitness.co.in/wp-content/plugins/bmi-calculators-by-prominetix/images/female_obese.png">
+        </div>
+
+        <div class="col-lg-4">
+          <div class="bmi-info">
+            <h2 class="bmi-title">BMI <span>Calculator</span></h2>
+            <div id="bmiOutput" class="bmi-result-box mt-3">
+              <p>Your BMI will appear here</p>
+            </div>
+            <div id="bmiAdvice" class="mt-3">
+              <h5 class="mb-2">💡 How It Helps</h5>
+              <p>
+                Enter your weight and height to calculate your Body Mass Index (BMI).
+                This helps you understand whether you are underweight, at a healthy weight,
+                overweight, or obese.
+              </p>
+
+              <p>
+                Based on your BMI, you can take the right steps toward your fitness goals —
+                whether it's gaining muscle, losing fat, or maintaining a balanced lifestyle.
+              </p>
+
+              <p>
+                For best results, combine regular workouts, a balanced diet, proper hydration,
+                and consistent sleep. Small daily improvements lead to long-term success.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SERVICES SECTION ================= -->
+  <section id="services" class="services text-center">
+    <div class="container">
+      <h2 class="section-title fade-up">Our Services</h2>
+      <div class="row">
+        <div class="col-md-4 fade-up" style="animation-delay: 0.1s;">
+          <div class="service-card">
+            <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=500" alt="Weight Training">
+            <h5>Weight Training</h5>
+          </div>
+        </div>
+        <div class="col-md-4 fade-up" style="animation-delay: 0.2s;">
+          <div class="service-card">
+            <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=500" alt="Cardio Training">
+            <h5>Cardio Training</h5>
+          </div>
+        </div>
+        <div class="col-md-4 fade-up" style="animation-delay: 0.3s;">
+          <div class="service-card">
+            <img src="https://images.unsplash.com/photo-1605296867424-35fc25c9212a?q=80&w=500" alt="Personal Training">
+            <h5>Personal Training</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= OUR TEAM ================= -->
+  <section class="team-section" id="trainer">
+    <div class="container">
+
+      <!-- Title -->
+      <div class="text-center mb-5">
+        <h2 class="section-title">Our Trainers</h2>
+        <p class="section-subtitle">Meet our professional fitness experts</p>
+      </div>
+
+      <!-- SCROLL WRAPPER -->
+      <div class="team-slider">
+
+        <div class="team-track">
+
+          <!-- 👨 -->
+          <div class="team-card">
+            <img src="https://images.unsplash.com/photo-1594737625785-a6cbdabd333c?q=80&w=400&auto=format&fit=crop">
+            <h5>Rahul Sharma</h5>
+            <p>Strength Trainer</p>
+          </div>
+        
+          <!-- 👩 -->
+          <div class="team-card">
+            <img src="https://images.unsplash.com/photo-1549576490-b0b4831ef60a?q=80&w=400&auto=format&fit=crop">
+            <h5>Priya Patel</h5>
+            <p>Yoga Expert</p>
+          </div>
+        
+          <!-- 👨 -->
+          <div class="team-card">
+            <img src="https://images.unsplash.com/photo-1605296867424-35fc25c9212a?q=80&w=400&auto=format&fit=crop">
+            <h5>Amit Verma</h5>
+            <p>Cardio Coach</p>
+          </div>
+        
+          <!-- 👩 -->
+          <div class="team-card">
+            <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=400&auto=format&fit=crop">
+            <h5>Sneha Mehta</h5>
+            <p>Nutritionist</p>
+          </div>
+        
+          <!-- 👩 EXTRA -->
+          <div class="team-card">
+            <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=400&auto=format&fit=crop">
+            <h5>Neha Kapoor</h5>
+            <p>Fitness Coach</p>
+          </div>
+        
+          <!-- 👩 EXTRA -->
+          <div class="team-card">
+            <img src="https://images.unsplash.com/photo-1558611848-73f7eb4001ab?q=80&w=400&auto=format&fit=crop">
+            <h5>Riya Shah</h5>
+            <p>Workout Expert</p>
+          </div>
+        
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ================= CONTACT SECTION ================= -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="text-center mb-5 fade-up">
+        <h2 class="section-title">Contact Us</h2>
+        <p class="section-subtitle">Have questions? Get in touch with us</p>
+      </div>
+
+      <div class="row align-items-center">
+        <div class="col-lg-5 mb-4 fade-left">
+          <div class="contact-info">
+            <h4>Get In Touch</h4>
+            <p>We are here to help you start your fitness journey.</p>
+            <ul class="contact-details">
+              <li>📍 Nadiad, Gujarat</li>
+              <li>📞 +91 8320883374</li>
+              <li>📧 gympro@email.com</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-7 fade-right">
+          <form class="contact-form">
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <input type="text" class="form-control" placeholder="Your Name">
+              </div>
+              <div class="col-md-6 mb-3">
+                <input type="email" class="form-control" placeholder="Email">
+              </div>
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Subject">
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-danger px-4">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🔥 BMI RESULT MODAL -->
+  <div class="modal fade" id="bmiModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content text-center p-4">
+
+        <h4 class="mb-3">Your BMI Result</h4>
+
+        <div id="modalBMIResult" style="font-size:22px;"></div>
+        <div id="modalAdvice" class="mt-3" style="color:#ccc;"></div>
+
+        <button class="btn btn-danger mt-4" data-bs-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row text-center text-md-start">
+        <div class="col-md-4 mb-4 fade-up">
+          <h4 class="footer-title">Gym Pro</h4>
+          <p>Build your dream body with our expert trainers and modern equipment.</p>
+        </div>
+        <div class="col-md-4 mb-4 fade-up" style="animation-delay: 0.1s;">
+          <h5 class="footer-title">Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-4 fade-up" style="animation-delay: 0.2s;">
+          <h5 class="footer-title">Subscribe</h5>
+          <p>Get fitness tips and updates</p>
+          <form class="subscribe-form d-flex">
+            <input type="email" placeholder="Enter email" class="form-control me-2">
+            <button class="btn btn-danger">Send</button>
+          </form>
+        </div>
+      </div>
+      <hr>
+      <div class="text-center">
+        <p>© 2026 Gym Pro | All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JavaScript -->
+  <script src="../js/script.js"></script>
+
+</body>
+
+</html>
